@@ -4,4 +4,6 @@ if degree<=20:
 elif degree >20 and degree<=38:
     print("normal weather")
 else:
-    print("hot weather")    
+    print("hot weather")
+fahrenheit=((degree*1.8)+32)
+print("the fahrenheit value is:",fahrenheit,"F")
